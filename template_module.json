@@ -1,0 +1,51 @@
+{
+  "id": "miskasmaps-%num%-%lmap%",
+  "title": "Miska's Maps #%num% - %cur%",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "11",
+    "verified": "11"
+  },
+  "authors": [
+    {
+      "name": "Miska's Maps",
+      "url": "https://www.miskasmaps.com"
+    }
+  ],
+  "url": "https://www.miskasmaps.com",
+  "packs": [
+    {
+      "name": "mm%num%-%lmap%-scenes",
+      "label": "MM%num% %cur% Scenes",
+      "path": "packs/mm%num%-%lmap%-scenes",
+      "type": "Scene",
+      "ownership": {
+        "PLAYER": "NONE",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "mm%num%-%lmap%-journal",
+      "label": "MM%num% %cur% Journals",
+      "path": "packs/mm%num%-%lmap%-journal",
+      "type": "JournalEntry",
+      "ownership": {
+        "PLAYER": "NONE",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "mm%num%-%lmap%-playlist",
+      "label": "MM%num% %cur% Playlist",
+      "path": "packs/mm%num%-%lmap%-playlist",
+      "type": "Playlist",
+      "ownership": {
+        "PLAYER": "NONE",
+        "ASSISTANT": "OWNER"
+      }
+    }
+  ],
+  "url": "https://www.miskasmaps.com",
+  "manifest": "https://dl.dropboxusercontent.com/scl/...",
+  "download": "https://dl.dropboxusercontent.com/scl/..."
+}

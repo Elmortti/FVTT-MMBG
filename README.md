@@ -1,6 +1,3 @@
-# The script is highly specific with syntax
-
-
 ###	käyttöohjeet
 
 HUOM! Tämä skripti on kirjoitettu bash kielessä ja tarvitsee jonkin bash kuoren kuten git bashin, jonka voi ladata osoitteesta [https://git-scm.com/downloads] tai syöttämällä powershell komentokehotteeseen tämän komennon [winget install --id Git.Git -e --source winget]	Git latauksen koko pitäisi olla ~50 Mb

@@ -1,3 +1,8 @@
+Warning, horrible formatting ahead!
+
+# The script is highly specific with syntax
+
+
 ###	käyttöohjeet
 
 HUOM! Tämä skripti on kirjoitettu bash kielessä ja tarvitsee jonkin bash kuoren kuten git bashin, jonka voi ladata osoitteesta [https://git-scm.com/downloads] tai syöttämällä powershell komentokehotteeseen tämän komennon [winget install --id Git.Git -e --source winget]	Git latauksen koko pitäisi olla ~50 Mb
@@ -32,20 +37,20 @@ Kartan nimessä voi olla numeroita, mutta jos ne ovat nimen päässä, ne tulee 
 [kartan nimi ja numero]
 		Kartan numeron voi kirjoittaa kummalle tahansa puolelle sen nimeä ja kartan nimi käyttäen välilyöntejä ja iosja kirjaimia
 
--help		|-h
+-help, -h
 		Näyttää tämän listan
 
 	NON FUNCTIONAL
--config [asetus] [arvo]		|-cfg -c
+-config, -cfg, -c [asetus] [arvo]
 		Muuttaa asetuksen arvoa(katso config.txt tai -config ilman argumentteja nähdäksesi nykyiset asetukset ja niiden kuvaukset)
 	
--exit		|-ex -e
+-exit, -ex, -e
 		Pakota skriptin lopetus
 
--keyword	| -keyw -key -k
+-keyword, -keyw, -key, -k
 		Näyttää nykyisen joukkosyöttö komennon ja aloittaa joukko syötön
 
--readme	[osio] 	| -rdme -rdme -rm -r
+-readme, -rdme, -rdme, -rm, -r [osio]
 		Näyttää readme tiedoston sisällön (ikkunan suurentaminen suositeltua), tietyn osion otsikon lisääminen näyttää vain kyseisen osion tekstin, koko osion nimeä ei tarvitse kirjoittaa, sen alku riittää
 ˔
 	suunnitellut ominaisuudet

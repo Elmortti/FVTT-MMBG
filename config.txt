@@ -1,10 +1,10 @@
 	Command to initiate bulk import
 keyw=bulk
-	Path to the bulk import file
-bulk=c:/Users/eliot/Work/FVTT-MMBGS-master/
-	Jätä skripti auki suoritettua [true/*]
+	Custom bulk.txt path (end with /)
+bulk=
+	Leave script open after completion [true/*]
 wait=true
-	Paht to the folder containing the folders with the .webp files
-scrt=c:/Work/Maps/
+	Path to the folder containing the folders with the .webp files
+scrt=W:/Work/Maps/
 	Path to the folder where the module bases will be created
-trgt=c:/polku/moduli/kansioon
+trgt=C:/Users/eliot/AppData/Local/FoundryVTT/Data/modules/
